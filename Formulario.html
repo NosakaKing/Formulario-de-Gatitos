@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Adopcion de Gatitos</title>
+    <link rel="stylesheet" href="Estilo.css">
+</head>
+<body>
+    <div class="box">
+    <form action="https://freecatphotoapp.com/submit-cat-photo">
+        <h2>Formulario de Adopcion de Gatitos</h2>
+        <img src="Perfil.png" alt="gato">
+        <div class="inputBox">
+       <span>Nombre Completo</span>
+       <input type="text" id="nombre" name="nombre" required> <br>
+       <i></i>
+       </div>
+       <div class="inputBox">
+       <span>Correo Electronico</span>
+       <input type="text" id="correo" name="correo" required> <br>
+       <i></i>
+       </div>
+       <div class="inputBox">
+       <span>Teléfono de Contacto</span>
+       <input type="tel" id="telefono" name="telefono" required> <br>
+       <i></i>
+       </div>
+       <div class="inputBox">
+       <span>Gatito a Adoptar:</span> 
+        <select id="gatito" name="gatito" required><br>
+            <option value="Gatito Siamese">Gatito Raza Siamese</option><br>
+            <option value="Gatito Raza Persa">Gatito Raza Persa</option><br>
+            <option value="Gatito Raza Maine Coon">Gatito Raza Maine Coon</option><br>
+        </select><br>
+ 
+    </div>
+    <div class="enviar">
+        <input type="submit" value="Enviar "><br>
+    </div>
+    </form>
+</div>
+</body>
+</html>
